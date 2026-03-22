@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --blue: #2980b9;
+    --red: tomato;
+    --orange: orange;
+    --black: #333 ;
+    --white:#fff;
+    --bg-color:#eee;
+    --dark-bg:#eee;
+    --box-shadow:0.5rem 1rem rgba(0,0,0,.1);
+    --border:.1rem solid #999;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin:0 auto;
+   
+}
+
+section {
+    padding: 2rem;
+}
+
+
+.add-product-form h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--black);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.add-product-form .box {
+    padding: 1.2rem 1,4rem;
+    font-size: 1.7rem;
+    color: var(--black);
+    border-radius: .5rem;
+    background-color: var(--white);
+    margin: 1rem 0;
+    width: 100%;
+}
+
+@media(max-width:1200px){
+
+}
+
+
+@media (max-width:991px){
+    html {
+        font-size: 55%;
+    }
+}
+
